@@ -18,3 +18,5 @@ Output dari aplikasi:
 - Array ganjil dengan jumlah index 50
 - Min, Max, Total, Rata rata pada setiap array (genap dan ganjil)
 - Perbandingan nilai min, max, total dan rata rata
+
+## Penjelasan tiap kode pada [file](https://github.com/daffasatrianegara/Homework-Rakamin-JS/blob/main/randArray.js)
