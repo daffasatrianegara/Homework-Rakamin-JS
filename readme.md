@@ -11,6 +11,7 @@ Bandingkan kedua buah array, contoh :
 - Max lebih besar array ganjil
 - Total memiliki nilai sama antara array genap dan ganjil
 - Rata rata lebih besar array ganjil
+
 Output dari aplikasi:
 - Array dengan jumlah index 100
 - Array genap dengan jumlah index 50
