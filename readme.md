@@ -30,6 +30,7 @@ function createRandomArr() {
 }
 ```
 function diatas digunakan untuk membuat array dengan index 100, dan pada setiap index memiliki nilai random antara 1-100.
+
 ```javascript
 function arrSeparate(arrays) {
     const arrOdd = []
@@ -48,6 +49,7 @@ function arrSeparate(arrays) {
 }
 ```
 function diatas digunakan untuk memisahkan sebuah array berdasarkan nilai ganjil dan genap. untuk memisahkan nilai ganjil dan genap menggunakan operasi modulus didalam for loop. function ini mengembalikan/return 2 variabel, yaitu `odd` dan `even`.
+
 ```javascript
 function arrMin(arrays) {
     let min = arrays[0]
@@ -60,6 +62,7 @@ function arrMin(arrays) {
 }
 ```
 function ini mencari nilai terkecil dalam sebuah array. `let min = arrays[0]` merupakan nilai awal pada variabel min dan akan dibandingkan dengan nilai lain didalam for loop.
+
 ``` javascript
 function arrMax(arrays) {
     let max = arrays[0];
@@ -72,6 +75,7 @@ function arrMax(arrays) {
 }
 ```
 function ini mencari nilai terbesar dalam sebuah array. `let max = arrays[0]` merupakan nilai awal pada variabel max dan akan dibandingkan dengan nilai lain didalam for loop.
+
 ```javascript
 function arrTotal(arrays) {
     let total = 0
@@ -82,6 +86,7 @@ function arrTotal(arrays) {
 }
 ```
 function ini menghitung semua nilai pada index disetiap array. `let total = 0` merupakan variabel awal yang nantinya digunakan untuk menjumlahkan semua nilai pada array melalui for loop. `total += parseInt(arrays[i]);` merupakan baris kode yang digunakan untuk menjumlahkan nilai pada tiap index pada array.
+
 ```javascript
 function arrAvr(arrays) {
     let total = arrTotal(arrays)
@@ -89,6 +94,7 @@ function arrAvr(arrays) {
 }
 ```
 function ini menghitung nilai rata-rata pada array. memanfaatkan function total `let total = arrTotal(arrays)` dan direturn dengan jumlah index pada array `return total / arrays.length`.
+
 ```javascript
 const compare = {
     min : oddMin > evenMin ? "min pada array ganjil lebih besar" : "min pada array genap lebih besar",
