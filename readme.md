@@ -19,4 +19,14 @@ Output dari aplikasi:
 - Min, Max, Total, Rata rata pada setiap array (genap dan ganjil)
 - Perbandingan nilai min, max, total dan rata rata
 
-## Penjelasan tiap kode pada [file](https://github.com/daffasatrianegara/Homework-Rakamin-JS/blob/main/randArray.js)
+## Penjelasan tiap kode pada [file](https://github.com/daffasatrianegara/Homework-Rakamin-JS/blob/main/randArray.js) `randArray.js`
+```javascript
+function createRandomArr() {
+    const arr = [];
+    for(let i = 0; i < 100; i++) {
+        arr.push(Math.round(Math.random() * 49) + 1)
+    }
+    return arr
+}
+```
+function diatas digunakan untuk membuat array dengan index 100, dan pada setiap index memiliki nilai random antara 1-100.
